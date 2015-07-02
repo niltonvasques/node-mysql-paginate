@@ -44,6 +44,32 @@ var paginate = require('node-mysql-paginate');
 **Examples**
 
 ```js
+var paginate    = require('node-mysql-paginate');
+
+function paginated_query(req, res, query, params){
+  var limit = 10;
+  if(req.query.limit){
+    limit = req.query.limit;
+  }
+  var page = 1;
+  if(req.query.page){
+    page = req.query.page;
+  }
+  paginate.paginate(database.connection, query, 
+      {
+        page : page,
+        limit: limit,
+        params: params 
+      },
+      function (err, rows){
+        if(err){
+          console.log("An unexpected error happens.");
+          return;
+        }
+        res.json(rows);
+      }
+  );
+}
 ```
 
 ## Contributors
