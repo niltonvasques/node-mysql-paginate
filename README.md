@@ -45,9 +45,6 @@ var paginate = require('node-mysql-paginate');
 ```js
 ```
 
-```js
-
-
 ## Contributors
 
 * Nilton Vasques <nilton.vasques@gmail.com>
