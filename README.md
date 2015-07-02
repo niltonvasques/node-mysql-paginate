@@ -32,12 +32,13 @@ var paginate = require('node-mysql-paginate');
 
 **Arguments**
 
-* `query` - node-mysql connection object.
+* `connectiony` - node-mysql connection object.
 * `query` - MySQL String query.
 * `options` - paginated options  
   - `page` - Default: `1`
   - `limit` - Default: `10`
   - `columns` - Default: `null`
+  - `params` - Default: `null` - Arguments to be passed to SQL Query. 
 * `callback(err, results)` - A callback which is called once pagination results are retrieved, or when an error has occurred.
 
 **Examples**
