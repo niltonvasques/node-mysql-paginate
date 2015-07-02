@@ -16,7 +16,7 @@
 ## Install
 
 ```bash
-npm install -S node-mysql-paginate
+npm install -S niltonvasques/node-mysql-paginate
 ```
 
 
