@@ -1,0 +1,47 @@
+{
+  "author": "Nilton Vasques <nilton.vasques@gmail.com>",
+  "name": "node-mysql-paginate",
+  "description": "Simple library to easily add paginated queries and results to node-mysql",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Nilton Vasques",
+      "email": "nilton.vasques@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niltonvasques/node-mysql-paginate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niltonvasques/node-mysql-paginate/issues"
+  },
+  "homepage": "http://github.com/niltonvasques/node-mysql-paginate/",
+  "keywords": [
+    "node",
+    "mysql",
+    "node-mysql",
+    "paginate",
+    "sort",
+    "results",
+    "page",
+    "populate"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "node-mysql": "~2.7.0"
+  },
+  "main": "./lib/node-mysql-paginate",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/niltonvasques/node-mysql-paginate/LICENSE"
+    }
+  ],
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
