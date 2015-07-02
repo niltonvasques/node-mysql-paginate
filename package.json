@@ -2,7 +2,7 @@
   "author": "Nilton Vasques <nilton.vasques@gmail.com>",
   "name": "node-mysql-paginate",
   "description": "Simple library to easily add paginated queries and results to node-mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "contributors": [
     {
       "name": "Nilton Vasques",
