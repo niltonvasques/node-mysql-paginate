@@ -31,7 +31,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "node-mysql": "~2.7.0"
+    "mysql": "~2.7.0"
   },
   "main": "./lib/node-mysql-paginate",
   "licenses": [
